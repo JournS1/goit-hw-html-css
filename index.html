@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="header-logo"
@@ -49,8 +49,73 @@
             </li>
           </ul>
         </address>
+        <button class="header-menu-btn" type="button" data-menu-open>
+          <svg class="modal-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-mob-menu"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu" data-menu>
+        <button class="mob-menu-close-btn" type="button" data-menu-close>
+          <svg class="mob-menu-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-Vector"></use>
+          </svg>
+        </button>
+        <nav class="mob-nav">
+          <ul class="mob-nav-list">
+            <li>
+              <a href="./index.html" class="mob-nav-link current">Studio</a>
+            </li>
+            <li><a href="" class="mob-nav-link">Portfolio</a></li>
+            <li><a href="" class="mob-nav-link">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="mob-contacts">
+          <ul class="mob-contacts-list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="mob-contacts-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="mob-contacts-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+          <ul class="mob-soc-list">
+            <li class="mob-soc-item">
+              <a href="" class="mob-soc-link">
+                <svg class="mob-soc-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-item">
+              <a href="" class="mob-soc-link">
+                <svg class="mob-soc-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-item">
+              <a href="" class="mob-soc-link">
+                <svg class="mob-soc-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-item">
+              <a href="" class="mob-soc-link">
+                <svg class="mob-soc-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
     <main>
       <section class="hero">
         <div class="container hero-container">
@@ -291,7 +356,7 @@
           </ul>
         </div>
       </section>
-      <!-- <section class="portfolio">
+      <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -558,7 +623,8 @@
           <button class="modal-btn">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
