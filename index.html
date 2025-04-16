@@ -544,7 +544,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay" data-modal>
+    <div class="modal-overlay is-open" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -612,13 +612,17 @@
               value="true"
               name="user-privacy"
             />
-            <label for="user-privacy" class="modal-checkbox-text"
-              ><span class="modal-checkbox-box"
-                ><svg class="privaci-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-privasy"></use></svg></span
-              >I accept the terms and conditions of the
-              <a href="" class="privaci-link">Privacy Policy</a></label
-            >
+            <label for="user-privacy" class="modal-checkbox-text">
+              <span class="modal-checkbox-box">
+                <svg class="privaci-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-privasy"></use>
+                </svg>
+              </span>
+              <span
+                >I accept the terms and conditions of the
+                <a href="" class="privaci-link">Privacy Policy</a></span
+              >
+            </label>
           </div>
           <button class="modal-btn">Send</button>
         </form>
