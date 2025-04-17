@@ -1238,7 +1238,8 @@ img {
   /* #endregion */
 
   /* #region footer */
-  .footer {
+  .footer .container {
+    max-width: 1158px;
     padding: 100px 0;
   }
 
